@@ -37,12 +37,12 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-### `V1__initial_schema.sql`
+### `V2__add_phone_column.sql`
 ```sql
 ALTER TABLE users ADD COLUMN phone_number VARCHAR(20);
 ```
 
-## 📦 API Endpoints
+### 📦 API Endpoints
 ### ➕Create User
 POST /api/users
 Request Body:
@@ -90,9 +90,6 @@ src/
 ## 📌 License
 This project is open source and free to use under the MIT License.
 ```yaml
-
----
-
 ## ✅ How to Add This to GitHub
 
 1. Create a new file called `README.md` in your repo folder.
@@ -103,4 +100,5 @@ This project is open source and free to use under the MIT License.
 git add README.md
 git commit -m "Add project README"
 git push origin main
+
 ```
