@@ -86,3 +86,21 @@ src/
 ```
 ## ✨ Author
 👩 Ambika Joshi - https://github.com/AjIndia77
+
+## 📌 License
+This project is open source and free to use under the MIT License.
+```yaml
+
+---
+
+## ✅ How to Add This to GitHub
+
+1. Create a new file called `README.md` in your repo folder.
+2. Paste the content above and save it.
+3. Then run:
+
+```bash
+git add README.md
+git commit -m "Add project README"
+git push origin main
+```
